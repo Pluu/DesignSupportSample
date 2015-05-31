@@ -1,0 +1,18 @@
+<resources>
+	<string name="app_name">DesignSupportSample</string>
+
+	<string name="floating_hint">Floating Label Hint</string>
+
+	<string name="snackbar_text">SnackBar Sample</string>
+	<string name="snackbar_action">undo</string>
+	<string name="title_activity_app_bar">AppBarActivity</string>
+
+	<string name="title_section1">Section 1</string>
+	<string name="title_section2">Section 2</string>
+	<string name="title_section3">Section 3</string>
+
+	<string name="hello_world">Hello world!</string>
+
+	<string name="action_settings">Settings</string>
+
+</resources>

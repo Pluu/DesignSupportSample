@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	  xmlns:tools="http://schemas.android.com/tools"
+	  tools:context=".MainActivity">
+	<group
+		android:checkableBehavior="single">
+		<item
+			android:id="@+id/navi_group1_item0"
+			android:checked="true"
+			android:icon="@drawable/ic_android_black_24dp"
+			android:title="Main"/>
+		<item
+			android:id="@+id/navi_group1_item1"
+			android:icon="@drawable/ic_android_black_24dp"
+			android:title="Floating Label for EditText"/>
+		<item
+			android:id="@+id/navi_group1_item2"
+			android:icon="@drawable/ic_android_black_24dp"
+			android:title="FAB, Snackbar"/>
+		<item
+			android:id="@+id/navi_group1_item3"
+			android:icon="@drawable/ic_android_black_24dp"
+			android:title="Tabs"/>
+		<item
+			android:id="@+id/navi_group1_item4"
+			android:icon="@drawable/ic_android_black_24dp"
+			android:title="App Bar"/>
+	</group>
+	<item
+		android:id="@+id/navigation_subheader"
+		android:title="Sub Header">
+		<menu>
+			<item
+				android:id="@+id/navigation_sub_item_1"
+				android:icon="@drawable/ic_android_black_24dp"
+				android:title="Sub Label1"/>
+			<item
+				android:id="@+id/navigation_sub_item_2"
+				android:icon="@drawable/ic_android_black_24dp"
+				android:title="Sub Label2"/>
+		</menu>
+	</item>
+</menu>
